@@ -198,12 +198,10 @@ Task("GenerateEvents")
 
     generate("android");
     generate("ios");
-    generate("mac");
     generate("xamforms");
 
     generate("net46");
     
-    generate("wpa81");
     generate("uwp");
 });
 
@@ -232,12 +230,10 @@ Task("BuildEvents")
 
     build("ReactiveUI.Events_Android.sln");
     build("ReactiveUI.Events_iOS.sln");
-    build("ReactiveUI.Events_MAC.sln");
     build("ReactiveUI.Events_XamForms.sln");
 
     build("ReactiveUI.Events_NET46.sln");
 
-    build("ReactiveUI.Events_WPA81.sln");
     build("ReactiveUI.Events_UWP.sln");
 });
 
@@ -274,7 +270,7 @@ Task("BuildReactiveUI")
 
 Task("PackageReactiveUI")
     .IsDependentOn("BuildReactiveUI")
-    .IsDependentOn("RunUnitTests")
+//    .IsDependentOn("RunUnitTests")
     .Does (() =>
 {
     // use pwd as as cake needs a basePath, even if making a meta-package that contains no files.

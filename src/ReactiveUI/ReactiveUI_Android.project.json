@@ -1,0 +1,10 @@
+﻿{
+  "supports": {},
+  "dependencies": {
+    "Splat": "2.0.0.1477340709",
+    "System.Reactive": "3.0.0"
+  },
+  "frameworks": {
+    "MonoAndroid,Version=v7.0": {}
+  }
+}

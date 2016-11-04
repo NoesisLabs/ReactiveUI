@@ -1,0 +1,13 @@
+﻿{
+  "supports": {},
+  "dependencies": {
+    "NETStandard.Library": "1.6.0",
+    "Splat": "2.0.0.1477340709",
+    "System.Diagnostics.Contracts": "4.0.1",
+    "System.Reactive": "3.0.0",
+    "System.Runtime.Serialization.Primitives": "4.1.1"
+  },
+  "frameworks": {
+    "netstandard1.1": {}
+  }
+}
